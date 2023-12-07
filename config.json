@@ -1,0 +1,21 @@
+{
+	"token": "YOUR-DISCORD-BOT-TOKEN",
+  "clientId": "YOUR-DISCORD-BOT-APPLICATION-ID",
+	"guildId": "YOUR-SERVER-ID",
+	"reservedKeywords": ["ALL", "new", "delete", "echo"],
+	"commandsRequireRestart": ["new", "delete"],
+	"maxCharacterLimit": 4000,
+
+	"maxCommandNameLength": 32,
+	"maxCommandDescriptionLength": 100,
+	"maxCommandOutputLength": 1000,
+	"maxNumCommand": 100,
+	
+	"maxListNameLength": 32,
+	"maxListDescriptionLength": 100,
+	"maxNumList": 100,
+
+	"numRouletteTicks": 15,
+	"minRouletteTimeout": 60,
+	"maxRouletteTimeout": 86400
+}
